@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca";
+}
+
+body {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+.flex {
+  justify-content: center;
+  display: flex;
+  margin: 0px auto;
+  max-width: 90ch;
+}
+
+.card {
+  place-items: center start;
+  display: grid;
+  grid-template-rows: 1fr;
+  padding: 40px;
+  gap: 30px;
+}
+
+.card-description h1 {
+  font-family: "Big Shoulders Display";
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  color: #f2f2f2;
+}
+
+.card-description {
+  margin-bottom: 60px;
+}
+
+.card-p {
+  color: #ffffffbf;
+  line-height: 1.7;
+}
+
+.button {
+  background-color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px 25px;
+  border-radius: 20px;
+}
+
+.sedans {
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  background-color: #e38826;
+}
+
+.sedans a {
+  color: #e38826;
+}
+
+.sedans a:hover {
+  background-color: #e38826;
+  outline: 2px solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.suvs {
+  background-color: #006970;
+}
+
+.suvs a {
+  color: #006970;
+}
+
+.suvs a:hover {
+  background-color: #006970;
+  outline: .125rem solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+.luxury {
+  border-top-right-radius: .5rem;
+  border-bottom-right-radius: .5rem;
+  background-color: #004241;
+}
+
+.luxury a {
+  color: #004241;
+}
+
+.luxury a:hover {
+  background-color: #004241;
+  outline: .125rem solid #f2f2f2;
+  color: #f2f2f2;
+}
+
+@media(max-width: 775px){
+  .flex{
+    flex-direction: column;
+    margin: 0px 10vw;
+  }
+}
