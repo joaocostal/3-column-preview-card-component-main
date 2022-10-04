@@ -106,7 +106,17 @@ img {
     flex-direction: column;
   }
 
+  .sedans {
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: initial;
+  }
+
+  .luxury {
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: initial;
+  }
+
   body {
-    margin: 20vh 20vw;
+    margin: 30vh 5vw;
   }
 }
